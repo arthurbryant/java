@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class ComputeTax
+{
+	public static void main(String[] args)
+	{
+		String statusString = JOptionPane.showInputDialog("Enter the filing status:");
+		int status = Integer.parseInt(statusString);
+
+		String incomeString = JOptionPane.showInputDialog("Enter the taxalbe income;");
+		int income = Integer.parseInt(incomeString);
+
+//		JOptionPane.showMessageDialog(null, "Tax is" );
+	}
+}

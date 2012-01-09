@@ -1,0 +1,9 @@
+public class MyTriangle
+{
+	public static void main(String[] args)
+	{
+
+	}
+
+	public static boolean isValid(double side1, double side2, doulbe side3)
+}

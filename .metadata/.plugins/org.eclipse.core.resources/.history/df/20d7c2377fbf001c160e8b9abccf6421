@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class ComputeTax
+{
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the filing status:");
+		int status = in.nextInt();
+
+		System.out.println("Enter the taxalbe income");
+		int income = in.nextInt();
+		
+		
+	}
+}

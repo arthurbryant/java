@@ -1,0 +1,30 @@
+public class IsPrime
+{
+	public static void main()
+	{
+		int count = 1000;
+		int line = 0;
+
+		for(int i = 0; i < count; i++)
+		{
+			if(isPrime(i))
+			{			
+				System.out.printf("%-5d", i);
+				line++;
+			}
+			if(line == 10)
+			{
+				System.out.println();
+				line = 0;
+			}
+		}
+	}
+	
+	public static boolean isPrime(int num)
+	{
+		for(int i = 2; i < num/2; i++)
+			if(num % i == 0)
+				return false;
+		return true;
+	}
+}

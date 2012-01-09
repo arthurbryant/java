@@ -1,0 +1,1 @@
+/home/arthur/code/java/.metadata/.plugins/org.eclipse.jdt.core/3643560049.index
